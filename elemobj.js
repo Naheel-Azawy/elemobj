@@ -84,6 +84,16 @@ function $elem(tag, args, con) {
     return elem;
 }
 
+function $get(q) {
+    if (q[0] == '#') {
+        return document.getElementById(q.substring(1));
+    } else if (q[0] == '.') {
+        return document.getElementsByClassName(q.substring(1));
+    } else {
+        return document.getElementsByTagName(q);
+    }
+}
+
 // https://www.w3schools.com/TAGs/
 const $a = (args, con) => $elem("a", args, con);
 const $abbr = (args, con) => $elem("abbr", args, con);
