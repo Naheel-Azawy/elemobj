@@ -53,7 +53,7 @@
    If you're building a basic website. Better to stay away from javascript anyway, if you can.
 
 ** Slightly longer example?
-   Check [[./index.html]] and [[./main.js]]. Hosted at [[https://naheel-azawy.github.io/elemobj/]].
+   Check [[./index.html]] and [[./example.js]]. Hosted at [[https://naheel-azawy.github.io/elemobj/]].
 
 ** License
    GPL-3
